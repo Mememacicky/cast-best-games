@@ -85,5 +85,3 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /CatBest games/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /CatBest games/[Aa]ssets/[Ss]treamingAssets/aa/*
-CatBest games/Library/ArtifactDB
-CatBest games/Logs/shadercompiler-UnityShaderCompiler.exe0.log
