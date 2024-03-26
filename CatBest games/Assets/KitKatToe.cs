@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,14 +20,19 @@ public class KitKatToe : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
+	public void fieldClick(int position)
+	{
+        Debug.Log((fieldPos)position);
+	}
 }
 
 public enum fieldPos
