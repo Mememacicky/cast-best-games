@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4776424}
   - component: {fileID: 4776423}
   m_Layer: 5
-  m_Name: MR
+  m_Name: MR-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 113610820}
   - component: {fileID: 113610819}
   m_Layer: 5
-  m_Name: BC
+  m_Name: BC-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 138826131}
   - component: {fileID: 138826130}
   m_Layer: 5
-  m_Name: 'ML '
+  m_Name: ML-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 342479048}
   - component: {fileID: 342479050}
   - component: {fileID: 342479049}
+  - component: {fileID: 342479051}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -570,6 +571,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342479047}
   m_CullTransparentMesh: 1
+--- !u!114 &342479051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342479047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2b53f9313c754191c5d6d69c1a8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TL: {fileID: 781835861}
+  TC: {fileID: 1344066864}
+  TR: {fileID: 0}
+  ML: {fileID: 0}
+  MC: {fileID: 0}
+  MR: {fileID: 0}
+  BL: {fileID: 0}
+  BC: {fileID: 0}
+  BR: {fileID: 0}
 --- !u!1 &396118511
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +605,7 @@ GameObject:
   - component: {fileID: 396118514}
   - component: {fileID: 396118513}
   m_Layer: 5
-  m_Name: TR
+  m_Name: TR-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +893,7 @@ GameObject:
   - component: {fileID: 581671455}
   - component: {fileID: 581671454}
   m_Layer: 5
-  m_Name: MC
+  m_Name: MC-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1067,7 +1089,7 @@ GameObject:
   - component: {fileID: 781835864}
   - component: {fileID: 781835863}
   m_Layer: 5
-  m_Name: TL
+  m_Name: TL-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1136,7 +1158,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 781835864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 342479051}
+        m_TargetAssemblyTypeName: KitKatToe, Assembly-CSharp
+        m_MethodName: fieldClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &781835864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1188,7 +1222,7 @@ GameObject:
   - component: {fileID: 957577821}
   - component: {fileID: 957577820}
   m_Layer: 5
-  m_Name: BR
+  m_Name: BR-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1309,7 +1343,7 @@ GameObject:
   - component: {fileID: 1063519278}
   - component: {fileID: 1063519277}
   m_Layer: 5
-  m_Name: BL
+  m_Name: BL-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1655,7 +1689,7 @@ GameObject:
   - component: {fileID: 1344066867}
   - component: {fileID: 1344066866}
   m_Layer: 5
-  m_Name: TC
+  m_Name: TC-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
