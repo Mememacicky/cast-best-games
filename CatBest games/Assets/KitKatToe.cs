@@ -25,6 +25,9 @@ public class KitKatToe : MonoBehaviour
 	public Sprite playerOimg;
 	public Color colorO = Color.blue;
 
+	public Sprite playerNoneImg;
+	public Color colorNone = new Color(0.6395372f, 0.8335454f, 0.8943396f);
+
 	public static Dictionary<playerID, Player> players;
 	public static Dictionary<fieldPos, GameObject> fields = new Dictionary<fieldPos, GameObject>();
 
@@ -50,6 +53,7 @@ public class KitKatToe : MonoBehaviour
 
 		players.Add(playerID.X, new Player() { ID = playerID.X, color = colorX, image = playerXimg });
 		players.Add(playerID.O, new Player() { ID = playerID.O, color = colorO, image = playerOimg });
+		players.Add(playerID.none, new Player() { ID = playerID.none, color = colorNone, image = playerNoneImg });
 
 		EngamePanel.SetActive(false);
 	}
