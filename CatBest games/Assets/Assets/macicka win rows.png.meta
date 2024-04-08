@@ -1,0 +1,3440 @@
+fileFormatVersion: 2
+guid: 3344142b527e3ec449c103ff52f617ea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: macicka win rows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730db73a0ad413049a19cdc5b2432ef0
+      internalID: 2001788965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9452432c178126499605aac7ef8c994
+      internalID: 1068732914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb4a793c6294241bd4bb6c1f0ec571
+      internalID: 2078943971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_3
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e87c3bfc032e4ea6879fdc6e16f9e
+      internalID: -1084846962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b291ec1c28116646b34a792ddf6d779
+      internalID: 310159732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_5
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ddb28c5edcdfd4694139c9105e7bec
+      internalID: -597275295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_6
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9b9ccf868644e449466f851e2b9998
+      internalID: 1700935684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_7
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdb29f22f03aeb4e88113949fac83dd
+      internalID: -1141479521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_8
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb03e847f2ebb4346b7d408185c8d463
+      internalID: -948628123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_9
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d7df1fb02d00f42aefbfed3db4d48b
+      internalID: -557770833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_10
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d5f7de4c425649a4267de9fe9fc95
+      internalID: 1105687861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_11
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528077b611cbb3e4789052e7287a222b
+      internalID: -666296375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_12
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5643e5b90c71bf419d87cb001261acc
+      internalID: -250179629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_13
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25680fc379cc9b64b898894d03ac9570
+      internalID: -306631846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_14
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 3240
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0a6ac21f1f924c844f7930a44df54
+      internalID: -1669304336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8088174861ae241af9a58ef29d6b35
+      internalID: 1556355732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_16
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebace84a140c5745937be07e0d59f49
+      internalID: 824593191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_17
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca377ab2fb09a9843b6e40abb6c01531
+      internalID: -1067149713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_18
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f309a7f9fafab419b01c0d582e39c3
+      internalID: 756686319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_19
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dea117b31883647921f3392e740a61
+      internalID: 1466847962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_20
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbb48f133372a44189a3e3e62462dc2
+      internalID: 1912516609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_21
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33a8bc94831b3c49b5a9cb9899dedfb
+      internalID: -1096807419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_22
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa59940bd9e9643b0489f1cb2babfb
+      internalID: -215985224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_23
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2da0f8935104b4c9a323dbba21c410
+      internalID: -1261839280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_24
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702500a30923f414aa65c031f38c1f10
+      internalID: 27668254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_25
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d2f78e01421a4981daeda5151dc7c
+      internalID: -2117897824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_26
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9290326141987943a4db5170a257b35
+      internalID: -208422571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_27
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d71fa9489286c46a3772d40c2b7d2e
+      internalID: -636454266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_28
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e700fb9d294ebe049a8ccf5d599a969e
+      internalID: -2005041284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_29
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 2880
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d390ec5f3d7808488e199c602244e85
+      internalID: 2115489125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496caef37ccc0e4db11c0c839a5ef0b
+      internalID: 2075994904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ed463ed0c99cc409d641cdf55de85a
+      internalID: 1970553140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_32
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418bb276002f107449ce0b51c4e268ae
+      internalID: 593693036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_33
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d28902812acbd46892229903d919aa
+      internalID: -1550064276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_34
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674a34a3b31b09a4c97fd0aec8b8f80b
+      internalID: -1879094155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_35
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f03ebf1258f384b9b9d18cdcb07bbb
+      internalID: 172950682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_36
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3bde4fb1873b241aea6f5967ce9ddd
+      internalID: 324959587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_37
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ead39bce9c5544bba1655f8d6e3fa
+      internalID: -1112073472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_38
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c18de5a4b7c94cbf9fd54d56ac0a3
+      internalID: -808842259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_39
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e13ea7b8c5ba0441a5885d244e82637
+      internalID: -872291733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_40
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02f6977efd25764fbcde343f5891a8b
+      internalID: 48037445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_41
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae23512980f4ce845af4952e36ec98fd
+      internalID: 508269176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_42
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b2a10d17417f74bb258f62e06e1c09
+      internalID: -853190178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_43
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae075cd9b96a6c458e7430815b029c3
+      internalID: -688747890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_44
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 2520
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c7b063855dfe74fb12b72d789db8e8
+      internalID: -572984904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5238bb1d0e4f6b43a6cb7efbeed2eac
+      internalID: 154911198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_46
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3884a861bcff3de46a231041e8c2ab7f
+      internalID: 524985884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_47
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae1f2f9c0cf15e45ba101cde62de887
+      internalID: -1582367396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_48
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19204311f416d6b45ba8a4de9d70641c
+      internalID: -1129894134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_49
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e401536ee24e7c3498aa83c83c26f0ca
+      internalID: 2108599806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_50
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0420c4db7fbce489715401224349d0
+      internalID: 103988138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_51
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1fe9743dddcc3419fb5791370cd6bb
+      internalID: 1692270313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_52
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b833769b6ea3fbb4ea546c784b2f8d2a
+      internalID: 1738274571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_53
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ebc84a8eb01104ca2095fb9a42bf02
+      internalID: 815797806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_54
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01868655bea179d49a2382d6b3770a8b
+      internalID: -594015771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_55
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb9633c3d3c26b4ba543dd72633f349
+      internalID: -1479083455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_56
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d3f4ec8002fa84c8beef5ff14b41e2
+      internalID: 581032230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_57
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e83f48593fd849a92d38f39950195
+      internalID: 589023994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_58
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8748ff4984faa24f8e26d71cdd202b5
+      internalID: 854504767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_59
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 2160
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08837ef260f63a54b9f7c312e494806d
+      internalID: 1978930079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ebd693df9d3644b606f9b72f9d595
+      internalID: -1867686018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_61
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac03adf51c4a674299e02130294e589
+      internalID: -1770168428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_62
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697eb3f1cd373f74d9af75b142c46b7c
+      internalID: -774234945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_63
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54313b700ba2a0840aa8f98d1a6657e8
+      internalID: -333897704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_64
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d34ef5cbf8a49c49963d5e0b0dda0f8
+      internalID: 1219868661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_65
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b988ce88d935b4841b487a1df98a0b94
+      internalID: -1801326480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_66
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b40935403baac48915ef088aeea989
+      internalID: 1857177357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_67
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8682aaf61502fc40abb38b439ff19f6
+      internalID: 1653890738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_68
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d408ab5839bb4540ac8d96c3a565e18
+      internalID: -348562268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_69
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85276d8b701b42428af65e5a1c9769f
+      internalID: 1854538849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_70
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d21a8828b4d0ef40b4cf519ec4fb219
+      internalID: 708565851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_71
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879057314fb0e3247ba107dcd730d9a3
+      internalID: -662892494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_72
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449888e6bdde73469cf8868a18cc4e8
+      internalID: -1753554803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_73
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f328349aa729e47b36a3681b2945dd
+      internalID: -1821878472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_74
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 1800
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6716ae6636989e4299ad6ea713c0ae2
+      internalID: -2011831607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a68a5bf1b17d24dbd8bbcc75894518
+      internalID: 903293511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_76
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c5708a24bc524ab2945f19d74236f
+      internalID: -1595701034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_77
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8e9e50273c1814ea6d77bd50850db4
+      internalID: -477168082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_78
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e0ecd12faaa80469aa4a8d08b10278
+      internalID: 1337683780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_79
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985218ce2b3df04091af3fe5d8f1df4
+      internalID: -1131086298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_80
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8954c21ce0b694597941f0b350abbd
+      internalID: -571794839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_81
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9422a1c27a3d54da138745419bfb8b
+      internalID: -1565471631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_82
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8811704542254904793384fb19a38c87
+      internalID: 1105531486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_83
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df90ca5e34fe9b4b8569180dd7fec8e
+      internalID: 1665525435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_84
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0c3af9e5b068945828b9a43c6d83a9
+      internalID: 270387979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_85
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dc7f0cf0d9e6c46834f9dd2d200b72
+      internalID: 849186415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_86
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eca95c944b1bf49ae195e2feef3d38
+      internalID: -629589674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_87
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3681f8dd66ea244be0a1efb65d9551
+      internalID: -805874631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_88
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115f28a05b02af34085553c108af7a2a
+      internalID: 796830760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_89
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 1440
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9428ea89b983e4884b798b252b2a00
+      internalID: -172948629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e603f0c993dda3e45b5488073def4473
+      internalID: 903090189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_91
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83671ea531ee0074cae8b6d8cae8fd6b
+      internalID: 107273515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_92
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f42452636c32c34a92e8db718227382
+      internalID: 263529990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_93
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9278ce09603de94689feb3404ea5315
+      internalID: -497304348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_94
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e35c342ec1c5b8419692472a75d9e3b
+      internalID: 1657800669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_95
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0da0d13a867f4c9e25bd1a1f859ca
+      internalID: 1599567420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_96
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023b877e89c6fe649a757f074fdae09e
+      internalID: -1167940151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_97
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c773f3a8602c394448f3f233c239adf0
+      internalID: 257701794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_98
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5d11886aa2c234287572002881f407
+      internalID: -1060437123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_99
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56b7c2d917fe084e85459cbc6ee6bec
+      internalID: 607689301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_100
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af90c5bd6c5e004fb5e45e3860d69b5
+      internalID: 816641718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_101
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9539b3f5669f55143887cc721718e9cc
+      internalID: 1304771141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_102
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e83bbef2cf9d045b74a6677e0bb6c7
+      internalID: -659979620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_103
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0325c15452b46e9438d84c681b69479f
+      internalID: 1808918683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_104
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 1080
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1618b56220a5cf04583e7984eeec4d72
+      internalID: -803715712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73349b1f2c40a834e894902304860424
+      internalID: 904121983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_106
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7cae1e85ddaa840a8c21c350635c77
+      internalID: -564397275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_107
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948d092c55caac4caccf4754afa8cfb
+      internalID: 1078032852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_108
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c489224cf9889f46a7a06e1b2787760
+      internalID: 629240669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_109
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffad7554a8188ec4d9f31b6b3ea9f71d
+      internalID: 859545787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_110
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f052a1744338d4d49a584f9e956a49d9
+      internalID: -620799773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_111
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08e57c70348c2a439075a658b917358
+      internalID: -526880421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_112
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d5a49af97f4c048aabc64b95455988
+      internalID: -1333856169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_113
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a94dec879e4e64ead74a1b47a8f4df
+      internalID: -905313089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_114
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ea88edaa6eb334fae77e3e2ab5ceed
+      internalID: 837096219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_115
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0caa2d6537662a449c2d1fa291db2a2
+      internalID: 1090388929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_116
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824722a8a35a41344abf52f4c6939380
+      internalID: -866662598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_117
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24fa2b706a4bb49a8563cc72e8e2a4
+      internalID: -2143540544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_118
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939029119aa784149af704cea8c327e2
+      internalID: 1394749307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_119
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 720
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa436a0780e65c145bd73abbe5c460a5
+      internalID: 1561417973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ef2d08a49da4b458d95082c5744363
+      internalID: -1155441041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_121
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52920b382ba11cd4c8bf9dcbe7dfa212
+      internalID: 1383115905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_122
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1f3b1a660f1543860102c9e073ccb
+      internalID: -1495456185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_123
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327765ce5ebc53f44bbc30bb78baeca9
+      internalID: 1301393841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_124
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf1130fcd5d7a42b7e6fc1c22a5378
+      internalID: 1554221602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_125
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dbf67b056405948b00695a80c749d8
+      internalID: 680082738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_126
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b576d849350ab4eb95df914fd92094
+      internalID: -1147134342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_127
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a2b3ea65f31dc419f8eb7cac90f865
+      internalID: 2044163940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_128
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a071a9cd86f4c4da71cd4ba9629b97
+      internalID: 1975126809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_129
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67710a3b1d2a4cf4693e957536e6ce7e
+      internalID: -395444462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_130
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a4cd2bc10b62c4bb0af1797acfb555
+      internalID: -1275725604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_131
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c37e3d4c9ae314eb65c078d8c26807
+      internalID: 1282501057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_132
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995057d458b127443967d04e04df7bcd
+      internalID: -1495547401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_133
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554e6424522b955438a10621d9aeb5fa
+      internalID: -515909210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_134
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 360
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570b352f333fc9046806e7f81a3261d8
+      internalID: -1344501107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f076453a6ca1d48b5c75842078f3fc
+      internalID: -533701601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_136
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddca55d87dd1fc4ba53fa1a933e15eb
+      internalID: -885998270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_137
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184ecb1fa47285547badd69f9f9c4db4
+      internalID: 1074060357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_138
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9516531136aefb46a0c3d03a6d07c3b
+      internalID: 444688348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_139
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e809a3ca81584bbcb7a030a2ef8d6
+      internalID: 1082412188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_140
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f11a762f9ae74fbff1d9700ab4481
+      internalID: -1508894809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_141
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453e29d11f42ffb4090d603f757d979e
+      internalID: -376215686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_142
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b3eb8ba90ef0241ad69d74e2e52138
+      internalID: -1510033130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_143
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7b21a01a9ede344ab56a8190ee6cac
+      internalID: -1484192875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_144
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5e1e8c3f6c07e45a7d16e2cc0c592c
+      internalID: -904385581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_145
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784dc9cf9bff41f4d9c6970a25a97445
+      internalID: 628930665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_146
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ef3df3ac97a944b28c4ec562a41fc
+      internalID: 1147810145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_147
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa242186d378ead4e81ed79b3207ea4b
+      internalID: 216161754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_148
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb089bf6d3c44144bb72cbb729ccd1e4
+      internalID: 712200604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macicka win rows_149
+      rect:
+        serializedVersion: 2
+        x: 5362
+        y: 0
+        width: 383
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b239ffe1a9134ebd33e1599ccf66f
+      internalID: 2079090276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      macicka win rows_0: 2001788965
+      macicka win rows_1: 1068732914
+      macicka win rows_10: 1105687861
+      macicka win rows_100: 816641718
+      macicka win rows_101: 1304771141
+      macicka win rows_102: -659979620
+      macicka win rows_103: 1808918683
+      macicka win rows_104: -803715712
+      macicka win rows_105: 904121983
+      macicka win rows_106: -564397275
+      macicka win rows_107: 1078032852
+      macicka win rows_108: 629240669
+      macicka win rows_109: 859545787
+      macicka win rows_11: -666296375
+      macicka win rows_110: -620799773
+      macicka win rows_111: -526880421
+      macicka win rows_112: -1333856169
+      macicka win rows_113: -905313089
+      macicka win rows_114: 837096219
+      macicka win rows_115: 1090388929
+      macicka win rows_116: -866662598
+      macicka win rows_117: -2143540544
+      macicka win rows_118: 1394749307
+      macicka win rows_119: 1561417973
+      macicka win rows_12: -250179629
+      macicka win rows_120: -1155441041
+      macicka win rows_121: 1383115905
+      macicka win rows_122: -1495456185
+      macicka win rows_123: 1301393841
+      macicka win rows_124: 1554221602
+      macicka win rows_125: 680082738
+      macicka win rows_126: -1147134342
+      macicka win rows_127: 2044163940
+      macicka win rows_128: 1975126809
+      macicka win rows_129: -395444462
+      macicka win rows_13: -306631846
+      macicka win rows_130: -1275725604
+      macicka win rows_131: 1282501057
+      macicka win rows_132: -1495547401
+      macicka win rows_133: -515909210
+      macicka win rows_134: -1344501107
+      macicka win rows_135: -533701601
+      macicka win rows_136: -885998270
+      macicka win rows_137: 1074060357
+      macicka win rows_138: 444688348
+      macicka win rows_139: 1082412188
+      macicka win rows_14: -1669304336
+      macicka win rows_140: -1508894809
+      macicka win rows_141: -376215686
+      macicka win rows_142: -1510033130
+      macicka win rows_143: -1484192875
+      macicka win rows_144: -904385581
+      macicka win rows_145: 628930665
+      macicka win rows_146: 1147810145
+      macicka win rows_147: 216161754
+      macicka win rows_148: 712200604
+      macicka win rows_149: 2079090276
+      macicka win rows_15: 1556355732
+      macicka win rows_16: 824593191
+      macicka win rows_17: -1067149713
+      macicka win rows_18: 756686319
+      macicka win rows_19: 1466847962
+      macicka win rows_2: 2078943971
+      macicka win rows_20: 1912516609
+      macicka win rows_21: -1096807419
+      macicka win rows_22: -215985224
+      macicka win rows_23: -1261839280
+      macicka win rows_24: 27668254
+      macicka win rows_25: -2117897824
+      macicka win rows_26: -208422571
+      macicka win rows_27: -636454266
+      macicka win rows_28: -2005041284
+      macicka win rows_29: 2115489125
+      macicka win rows_3: -1084846962
+      macicka win rows_30: 2075994904
+      macicka win rows_31: 1970553140
+      macicka win rows_32: 593693036
+      macicka win rows_33: -1550064276
+      macicka win rows_34: -1879094155
+      macicka win rows_35: 172950682
+      macicka win rows_36: 324959587
+      macicka win rows_37: -1112073472
+      macicka win rows_38: -808842259
+      macicka win rows_39: -872291733
+      macicka win rows_4: 310159732
+      macicka win rows_40: 48037445
+      macicka win rows_41: 508269176
+      macicka win rows_42: -853190178
+      macicka win rows_43: -688747890
+      macicka win rows_44: -572984904
+      macicka win rows_45: 154911198
+      macicka win rows_46: 524985884
+      macicka win rows_47: -1582367396
+      macicka win rows_48: -1129894134
+      macicka win rows_49: 2108599806
+      macicka win rows_5: -597275295
+      macicka win rows_50: 103988138
+      macicka win rows_51: 1692270313
+      macicka win rows_52: 1738274571
+      macicka win rows_53: 815797806
+      macicka win rows_54: -594015771
+      macicka win rows_55: -1479083455
+      macicka win rows_56: 581032230
+      macicka win rows_57: 589023994
+      macicka win rows_58: 854504767
+      macicka win rows_59: 1978930079
+      macicka win rows_6: 1700935684
+      macicka win rows_60: -1867686018
+      macicka win rows_61: -1770168428
+      macicka win rows_62: -774234945
+      macicka win rows_63: -333897704
+      macicka win rows_64: 1219868661
+      macicka win rows_65: -1801326480
+      macicka win rows_66: 1857177357
+      macicka win rows_67: 1653890738
+      macicka win rows_68: -348562268
+      macicka win rows_69: 1854538849
+      macicka win rows_7: -1141479521
+      macicka win rows_70: 708565851
+      macicka win rows_71: -662892494
+      macicka win rows_72: -1753554803
+      macicka win rows_73: -1821878472
+      macicka win rows_74: -2011831607
+      macicka win rows_75: 903293511
+      macicka win rows_76: -1595701034
+      macicka win rows_77: -477168082
+      macicka win rows_78: 1337683780
+      macicka win rows_79: -1131086298
+      macicka win rows_8: -948628123
+      macicka win rows_80: -571794839
+      macicka win rows_81: -1565471631
+      macicka win rows_82: 1105531486
+      macicka win rows_83: 1665525435
+      macicka win rows_84: 270387979
+      macicka win rows_85: 849186415
+      macicka win rows_86: -629589674
+      macicka win rows_87: -805874631
+      macicka win rows_88: 796830760
+      macicka win rows_89: -172948629
+      macicka win rows_9: -557770833
+      macicka win rows_90: 903090189
+      macicka win rows_91: 107273515
+      macicka win rows_92: 263529990
+      macicka win rows_93: -497304348
+      macicka win rows_94: 1657800669
+      macicka win rows_95: 1599567420
+      macicka win rows_96: -1167940151
+      macicka win rows_97: 257701794
+      macicka win rows_98: -1060437123
+      macicka win rows_99: 607689301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
