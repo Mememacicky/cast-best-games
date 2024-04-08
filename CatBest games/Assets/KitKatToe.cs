@@ -6,95 +6,102 @@ using UnityEngine.UI;
 
 public class KitKatToe : MonoBehaviour
 {
-    public GameObject TL;
-    public GameObject TC;
-    public GameObject TR;
-    public GameObject ML;
-    public GameObject MC;
-    public GameObject MR;
-    public GameObject BL;
-    public GameObject BC;
-    public GameObject BR;
+	public GameObject TL;
+	public GameObject TC;
+	public GameObject TR;
+	public GameObject ML;
+	public GameObject MC;
+	public GameObject MR;
+	public GameObject BL;
+	public GameObject BC;
+	public GameObject BR;
 
-    public playerID nextPlayer = playerID.none;
+	public playerID nextPlayer = playerID.none;
 
-    public Sprite playerX;
-    public Color colorX = Color.red;
-    public Sprite playerO;
-    public Color colorO = Color.blue;
+	public Sprite playerXimg;
+	public Color colorX = Color.red;
+	public Sprite playerOimg;
+	public Color colorO = Color.blue;
 
-    public Dictionary<fieldPos, GameObject> fields = new Dictionary<fieldPos, GameObject>();
+	public static Dictionary<playerID, Player> players;
+	public static Dictionary<fieldPos, GameObject> fields = new Dictionary<fieldPos, GameObject>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (fields == null)
-        {
-            fields = new Dictionary<fieldPos, GameObject>();
-		}
-        fields.Clear();
-        fields.Add(fieldPos.TopLeft, TL);
-        fields.Add(fieldPos.TopCenter, TC);
-        fields.Add(fieldPos.TopRight, TR);
-        fields.Add(fieldPos.MiddleLeft, ML);
-        fields.Add(fieldPos.MiddleCenter, MC);
-        fields.Add(fieldPos.MiddleRight, MR);
-        fields.Add(fieldPos.BottomLeft, BL);
-        fields.Add(fieldPos.BottomCenter, BC);
-        fields.Add(fieldPos.BottomRight, BR);
-        nextPlayer = playerID.X;
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		if (fields == null)
+			fields = new Dictionary<fieldPos, GameObject>();
+		if (players == null)
+			players = new Dictionary<playerID, Player>();
 
-    // Update is called once per frame
-    void Update()
-    {
+		fields.Clear();
+		fields.Add(fieldPos.TopLeft, TL);
+		fields.Add(fieldPos.TopCenter, TC);
+		fields.Add(fieldPos.TopRight, TR);
+		fields.Add(fieldPos.MiddleLeft, ML);
+		fields.Add(fieldPos.MiddleCenter, MC);
+		fields.Add(fieldPos.MiddleRight, MR);
+		fields.Add(fieldPos.BottomLeft, BL);
+		fields.Add(fieldPos.BottomCenter, BC);
+		fields.Add(fieldPos.BottomRight, BR);
+		nextPlayer = playerID.X;
 
-    }
+		players.Add(playerID.X, new Player() { ID = playerID.X, color = colorX, image = playerXimg });
+		players.Add(playerID.O, new Player() { ID = playerID.O, color = colorO, image = playerOimg });
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
 
 	public void fieldClick(int position)
 	{
-        Debug.Log((fieldPos)position);
-        Image renderer = fields[(fieldPos)position].transform.GetChild(0).GetComponent<Image>();
-        Image fieldIm = fields[(fieldPos)position].GetComponent<Image>();
+		bool success = fields[(fieldPos) position].GetComponent<FieldCat>().PlayerChange(nextPlayer);
 
-		switch (nextPlayer)
-        {
-            case playerID.X:
-                renderer.sprite = playerX;
-                nextPlayer = playerID.O;
-                fieldIm.color = colorX;
-                break;
-            case playerID.O:
-                renderer.sprite = playerO;
-                nextPlayer = playerID.X;
-				fieldIm.color = colorO;
-				break;
-            default:
-                Debug.LogError("Invalid next player");
-                nextPlayer = playerID.X;
-                break;
+		if (success)
+		{
+			switch (nextPlayer)
+			{
+				case playerID.X:
+					nextPlayer = playerID.O;
+					break;
+				case playerID.O:
+					nextPlayer = playerID.X;
+					break;
+				default:
+					Debug.LogError("Invalid next player");
+					nextPlayer = playerID.X;
+					break;
+			}
 		}
-        renderer.color = Color.white;
-		//fields[(fieldPos)position].GetComponentInChildren<Image>().gameObject.SetActive(false);
 	}
 }
 
 public enum fieldPos
 {
-    TopLeft,
-    TopCenter,
-    TopRight,
-    MiddleLeft,
-    MiddleCenter,
-    MiddleRight,
-    BottomLeft,
-    BottomCenter,
-    BottomRight
+	TopLeft,
+	TopCenter,
+	TopRight,
+	MiddleLeft,
+	MiddleCenter,
+	MiddleRight,
+	BottomLeft,
+	BottomCenter,
+	BottomRight
 }
 
 public enum playerID
 {
 	none,
 	X,
-    O
+	O
+}
+
+public struct Player
+{
+	public playerID ID;
+	public Sprite image;
+	public Color color;
 }
