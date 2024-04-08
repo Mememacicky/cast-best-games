@@ -16,6 +16,8 @@ public class KitKatToe : MonoBehaviour
 	public GameObject BC;
 	public GameObject BR;
 
+	public GameObject EngamePanel;
+
 	public playerID nextPlayer = playerID.none;
 
 	public Sprite playerXimg;
@@ -48,6 +50,8 @@ public class KitKatToe : MonoBehaviour
 
 		players.Add(playerID.X, new Player() { ID = playerID.X, color = colorX, image = playerXimg });
 		players.Add(playerID.O, new Player() { ID = playerID.O, color = colorO, image = playerOimg });
+
+		EngamePanel.SetActive(false);
 	}
 
 	// Update is called once per frame
