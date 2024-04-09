@@ -83,7 +83,13 @@ public class KitKatToe : MonoBehaviour
 					nextPlayer = playerID.X;
 					break;
 			}
+			checkEndgame();
 		}
+	}
+
+	public void checkEndgame()
+	{
+
 	}
 }
 
