@@ -18,9 +18,6 @@ public class KitKatToe : MonoBehaviour
 	public GameObject BC;
 	public GameObject BR;
 
-	public GameObject EngamePanel;
-	public TextMeshProUGUI endTitle;
-
 	public playerID nextPlayer = playerID.none;
 
 	public Sprite playerXimg;
@@ -33,6 +30,11 @@ public class KitKatToe : MonoBehaviour
 
 	public static Dictionary<playerID, Player> players;
 	public static Dictionary<fieldPos, GameObject> fields = new Dictionary<fieldPos, GameObject>();
+
+	[Space(10)]
+	public GameObject EngamePanel;
+	public TextMeshProUGUI endTitle;
+	public Animator endCatDancer;
 
 	// Start is called before the first frame update
 	void Start()
@@ -138,7 +140,25 @@ public class KitKatToe : MonoBehaviour
 	{
 		EngamePanel.SetActive(true);
 		Debug.Log("Winner: "+winner.ToString());
-		endTitle.text = "Winner: " + winner.ToString();
+		if (winner == playerID.none)
+		{ // Draw
+			endTitle.text = "It's a DRAW!";
+			endCatDancer.
+		}
+		else
+		{
+			endTitle.text = "Winner: " + winner.ToString();
+		}
+	}
+
+	public void ResetGame()
+	{
+		nextPlayer = playerID.X;
+		EngamePanel.SetActive(false);
+		foreach(GameObject gameField in fields.Values)
+		{
+			gameField.GetComponent<FieldCat>().ResetField();
+		}
 	}
 }
 
