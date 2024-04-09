@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class KitKatToe : MonoBehaviour
 {
@@ -17,6 +19,7 @@ public class KitKatToe : MonoBehaviour
 	public GameObject BR;
 
 	public GameObject EngamePanel;
+	public TextMeshProUGUI endTitle;
 
 	public playerID nextPlayer = playerID.none;
 
@@ -83,13 +86,59 @@ public class KitKatToe : MonoBehaviour
 					nextPlayer = playerID.X;
 					break;
 			}
-			checkEndgame();
+			playerID? winner = checkEndgame();
+			if (winner != null)
+				showEndgame((playerID) winner);
 		}
 	}
 
-	public void checkEndgame()
+	public playerID? checkEndgame()
 	{
+		playerID[,] currentStatus = new playerID[3,3];
+		currentStatus[0,0] = fields[fieldPos.TopLeft].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[0,1] = fields[fieldPos.TopCenter].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[0,2] = fields[fieldPos.TopRight].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[1,0] = fields[fieldPos.MiddleLeft].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[1,1] = fields[fieldPos.MiddleCenter].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[1,2] = fields[fieldPos.MiddleRight].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[2,0] = fields[fieldPos.BottomLeft].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[2,1] = fields[fieldPos.BottomCenter].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[2,2] = fields[fieldPos.BottomRight].GetComponent<FieldCat>().thisPlayer;
 
+		// Check rows
+		for(int i = 0; i < 3; i++)
+		{
+			if (currentStatus[i, 0] != playerID.none && currentStatus[i, 0] == currentStatus[i, 1] && currentStatus[i, 1] == currentStatus[i, 2])
+				return currentStatus[i, 0];
+		}
+		// Check columns
+		for (int i = 0; i < 3; i++)
+		{
+			if (currentStatus[0, i] != playerID.none && currentStatus[0, i] == currentStatus[1, i] && currentStatus[1, i] == currentStatus[2, i])
+				return currentStatus[0, i];
+		}
+		// Check diagonals
+		if (currentStatus[1, 1] != playerID.none && currentStatus[0, 0] == currentStatus[1, 1] && currentStatus[1, 1] == currentStatus[2, 2])
+			return currentStatus[1, 1];
+		if (currentStatus[1, 1] != playerID.none && currentStatus[0, 2] == currentStatus[1, 1] && currentStatus[1, 1] == currentStatus[2, 0])
+			return currentStatus[1, 1];
+		// Check draw
+		int filledFIelds = 0;
+		foreach(playerID fld in currentStatus)
+		{
+			if (fld != playerID.none)
+				filledFIelds++;
+		}
+		if(filledFIelds == 9)
+			return playerID.none;
+		return null;
+	}
+
+	public void showEndgame(playerID winner)
+	{
+		EngamePanel.SetActive(true);
+		Debug.Log("Winner: "+winner.ToString());
+		endTitle.text = "Winner: " + winner.ToString();
 	}
 }
 
