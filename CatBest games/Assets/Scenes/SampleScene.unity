@@ -677,9 +677,9 @@ MonoBehaviour:
   EngamePanel: {fileID: 637124398}
   nextPlayer: 0
   playerXimg: {fileID: 21300000, guid: 002f241a52cd51743943d736a7a94db7, type: 3}
-  colorX: {r: 1, g: 0, b: 0, a: 1}
+  colorX: {r: 1, g: 0, b: 0.6656451, a: 1}
   playerOimg: {fileID: 21300000, guid: 288af7c0e498ba640887cf8457b684b6, type: 3}
-  colorO: {r: 0, g: 0, b: 1, a: 1}
+  colorO: {r: 0, g: 0.98689437, b: 1, a: 1}
   playerNoneImg: {fileID: 21300000, guid: 81c2850e68e7f014d894716825dccb60, type: 3}
   colorNone: {r: 0.6395372, g: 0.8335454, b: 0.8943396, a: 1}
 --- !u!1 &396118511
