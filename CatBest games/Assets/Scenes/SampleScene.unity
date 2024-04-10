@@ -665,23 +665,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78b2b53f9313c754191c5d6d69c1a8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TL: {fileID: 781835861}
-  TC: {fileID: 1344066864}
-  TR: {fileID: 396118511}
-  ML: {fileID: 138826128}
-  MC: {fileID: 581671452}
-  MR: {fileID: 4776421}
-  BL: {fileID: 1063519275}
-  BC: {fileID: 113610817}
-  BR: {fileID: 957577818}
+  TL: {fileID: 781835866}
+  TC: {fileID: 1344066869}
+  TR: {fileID: 396118516}
+  ML: {fileID: 138826133}
+  MC: {fileID: 581671457}
+  MR: {fileID: 4776426}
+  BL: {fileID: 1063519280}
+  BC: {fileID: 113610822}
+  BR: {fileID: 957577823}
   nextPlayer: 0
   playerXimg: {fileID: 21300000, guid: 002f241a52cd51743943d736a7a94db7, type: 3}
   colorX: {r: 1, g: 0, b: 0.6656451, a: 1}
   playerOimg: {fileID: 21300000, guid: 288af7c0e498ba640887cf8457b684b6, type: 3}
   colorO: {r: 0, g: 0.98689437, b: 1, a: 1}
   playerNoneImg: {fileID: 21300000, guid: 81c2850e68e7f014d894716825dccb60, type: 3}
-  colorNone: {r: 0.6395372, g: 0.8335454, b: 0.8943396, a: 1}
-  EngamePanel: {fileID: 496516083}
+  colorNone: {r: 0.85360456, g: 0.89411765, b: 0.6392157, a: 1}
+  EndgamePanel: {fileID: 496516083}
   endTitle: {fileID: 637124400}
   endCatDancer: {fileID: 1038925680}
 --- !u!1 &396118511
