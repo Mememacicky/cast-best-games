@@ -4,19 +4,18 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class KitKatToe : MonoBehaviour
 {
-	public GameObject TL;
-	public GameObject TC;
-	public GameObject TR;
-	public GameObject ML;
-	public GameObject MC;
-	public GameObject MR;
-	public GameObject BL;
-	public GameObject BC;
-	public GameObject BR;
+	public FieldCat TL;
+	public FieldCat TC;
+	public FieldCat TR;
+	public FieldCat ML;
+	public FieldCat MC;
+	public FieldCat MR;
+	public FieldCat BL;
+	public FieldCat BC;
+	public FieldCat BR;
 
 	public playerID nextPlayer = playerID.none;
 
@@ -29,10 +28,10 @@ public class KitKatToe : MonoBehaviour
 	public Color colorNone = new Color(0.6395372f, 0.8335454f, 0.8943396f);
 
 	public static Dictionary<playerID, Player> players;
-	public static Dictionary<fieldPos, GameObject> fields = new Dictionary<fieldPos, GameObject>();
+	public static Dictionary<fieldPos, FieldCat> fields = new Dictionary<fieldPos, FieldCat>();
 
 	[Space(10)]
-	public GameObject EngamePanel;
+	public GameObject EndgamePanel;
 	public TextMeshProUGUI endTitle;
 	public Animator endCatDancer;
 
@@ -40,7 +39,7 @@ public class KitKatToe : MonoBehaviour
 	void Start()
 	{
 		if (fields == null)
-			fields = new Dictionary<fieldPos, GameObject>();
+			fields = new Dictionary<fieldPos, FieldCat>();
 		if (players == null)
 			players = new Dictionary<playerID, Player>();
 
@@ -54,19 +53,18 @@ public class KitKatToe : MonoBehaviour
 		fields.Add(fieldPos.BottomLeft, BL);
 		fields.Add(fieldPos.BottomCenter, BC);
 		fields.Add(fieldPos.BottomRight, BR);
-		nextPlayer = playerID.X;
 
 		players.Add(playerID.X, new Player() { ID = playerID.X, color = colorX, image = playerXimg });
 		players.Add(playerID.O, new Player() { ID = playerID.O, color = colorO, image = playerOimg });
 		players.Add(playerID.none, new Player() { ID = playerID.none, color = colorNone, image = playerNoneImg });
-
-		EngamePanel.SetActive(false);
+		
+		ResetGame();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-
+		
 	}
 
 	public void fieldClick(int position)
@@ -97,15 +95,15 @@ public class KitKatToe : MonoBehaviour
 	public playerID? checkEndgame()
 	{
 		playerID[,] currentStatus = new playerID[3,3];
-		currentStatus[0,0] = fields[fieldPos.TopLeft].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[0,1] = fields[fieldPos.TopCenter].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[0,2] = fields[fieldPos.TopRight].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[1,0] = fields[fieldPos.MiddleLeft].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[1,1] = fields[fieldPos.MiddleCenter].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[1,2] = fields[fieldPos.MiddleRight].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[2,0] = fields[fieldPos.BottomLeft].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[2,1] = fields[fieldPos.BottomCenter].GetComponent<FieldCat>().thisPlayer;
-		currentStatus[2,2] = fields[fieldPos.BottomRight].GetComponent<FieldCat>().thisPlayer;
+		currentStatus[0,0] = fields[fieldPos.TopLeft].thisPlayer;
+		currentStatus[0,1] = fields[fieldPos.TopCenter].thisPlayer;
+		currentStatus[0,2] = fields[fieldPos.TopRight].thisPlayer;
+		currentStatus[1,0] = fields[fieldPos.MiddleLeft].thisPlayer;
+		currentStatus[1,1] = fields[fieldPos.MiddleCenter].thisPlayer;
+		currentStatus[1,2] = fields[fieldPos.MiddleRight].thisPlayer;
+		currentStatus[2,0] = fields[fieldPos.BottomLeft].thisPlayer;
+		currentStatus[2,1] = fields[fieldPos.BottomCenter].thisPlayer;
+		currentStatus[2,2] = fields[fieldPos.BottomRight].thisPlayer;
 
 		// Check rows
 		for(int i = 0; i < 3; i++)
@@ -125,39 +123,41 @@ public class KitKatToe : MonoBehaviour
 		if (currentStatus[1, 1] != playerID.none && currentStatus[0, 2] == currentStatus[1, 1] && currentStatus[1, 1] == currentStatus[2, 0])
 			return currentStatus[1, 1];
 		// Check draw
-		int filledFIelds = 0;
+		int filledFields = 0;
 		foreach(playerID fld in currentStatus)
 		{
 			if (fld != playerID.none)
-				filledFIelds++;
+				filledFields++;
 		}
-		if(filledFIelds == 9)
+		if(filledFields == 9)
 			return playerID.none;
 		return null;
 	}
 
 	public void showEndgame(playerID winner)
 	{
-		EngamePanel.SetActive(true);
 		Debug.Log("Winner: "+winner.ToString());
+		EndgamePanel.SetActive(true);
 		if (winner == playerID.none)
 		{ // Draw
 			endTitle.text = "It's a DRAW!";
-			endCatDancer.
+			endCatDancer.SetBool("isDraw", true);
 		}
 		else
 		{
 			endTitle.text = "Winner: " + winner.ToString();
+			endCatDancer.SetBool("isDraw", false);
 		}
+		EndgamePanel.GetComponent<Image>().color = players[winner].color;
 	}
 
 	public void ResetGame()
 	{
 		nextPlayer = playerID.X;
-		EngamePanel.SetActive(false);
-		foreach(GameObject gameField in fields.Values)
+		EndgamePanel.SetActive(false);
+		foreach(FieldCat gameField in fields.Values)
 		{
-			gameField.GetComponent<FieldCat>().ResetField();
+			gameField.ResetField();
 		}
 	}
 }

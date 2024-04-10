@@ -674,8 +674,6 @@ MonoBehaviour:
   BL: {fileID: 1063519275}
   BC: {fileID: 113610817}
   BR: {fileID: 957577818}
-  EngamePanel: {fileID: 496516083}
-  endTitle: {fileID: 637124400}
   nextPlayer: 0
   playerXimg: {fileID: 21300000, guid: 002f241a52cd51743943d736a7a94db7, type: 3}
   colorX: {r: 1, g: 0, b: 0.6656451, a: 1}
@@ -683,6 +681,9 @@ MonoBehaviour:
   colorO: {r: 0, g: 0.98689437, b: 1, a: 1}
   playerNoneImg: {fileID: 21300000, guid: 81c2850e68e7f014d894716825dccb60, type: 3}
   colorNone: {r: 0.6395372, g: 0.8335454, b: 0.8943396, a: 1}
+  EngamePanel: {fileID: 496516083}
+  endTitle: {fileID: 637124400}
+  endCatDancer: {fileID: 1038925680}
 --- !u!1 &396118511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2001788965, guid: 3344142b527e3ec449c103ff52f617ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe3c0df5285db0b42b48431013e8a71c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
