@@ -34,6 +34,7 @@ public class KitKatToe : MonoBehaviour
 	public GameObject EndgamePanel;
 	public TextMeshProUGUI endTitle;
 	public Animator endCatDancer;
+	public Image winnerCat;
 
 	// Start is called before the first frame update
 	void Start()
@@ -54,9 +55,9 @@ public class KitKatToe : MonoBehaviour
 		fields.Add(fieldPos.BottomCenter, BC);
 		fields.Add(fieldPos.BottomRight, BR);
 
-		players.Add(playerID.X, new Player() { ID = playerID.X, color = colorX, image = playerXimg });
-		players.Add(playerID.O, new Player() { ID = playerID.O, color = colorO, image = playerOimg });
-		players.Add(playerID.none, new Player() { ID = playerID.none, color = colorNone, image = playerNoneImg });
+		players.Add(playerID.X, new Player() { color = colorX, image = playerXimg });
+		players.Add(playerID.O, new Player() { color = colorO, image = playerOimg });
+		players.Add(playerID.none, new Player() { color = colorNone, image = playerNoneImg });
 		
 		ResetGame();
 	}
@@ -136,17 +137,20 @@ public class KitKatToe : MonoBehaviour
 
 	public void showEndgame(playerID winner)
 	{
-		Debug.Log("Winner: "+winner.ToString());
+		Debug.Log("Winner:\u00A0" + winner.ToString());
 		EndgamePanel.SetActive(true);
 		if (winner == playerID.none)
 		{ // Draw
 			endTitle.text = "It's a DRAW!";
 			endCatDancer.SetBool("isDraw", true);
+			winnerCat.gameObject.SetActive(false);
 		}
 		else
 		{
-			endTitle.text = "Winner: " + winner.ToString();
+			endTitle.text = "Winner:\u00A0\u00A0<color=#00000000>.</color>";
 			endCatDancer.SetBool("isDraw", false);
+			winnerCat.gameObject.SetActive(true);
+			winnerCat.sprite = players[winner].image;
 		}
 		EndgamePanel.GetComponent<Image>().color = players[winner].color;
 	}
@@ -155,6 +159,7 @@ public class KitKatToe : MonoBehaviour
 	{
 		nextPlayer = playerID.X;
 		EndgamePanel.SetActive(false);
+		winnerCat.gameObject.SetActive(false);
 		foreach(FieldCat gameField in fields.Values)
 		{
 			gameField.ResetField();
@@ -182,9 +187,9 @@ public enum playerID
 	O
 }
 
+[System.Serializable]
 public struct Player
 {
-	public playerID ID;
 	public Sprite image;
 	public Color color;
 }
