@@ -143,6 +143,7 @@ public class KitKatToe : MonoBehaviour
 	{
 		Debug.Log("Winner:\u00A0" + winner.ToString());
 		EndgamePanel.SetActive(true);
+		nextPlayerPanel.gameObject.SetActive(false);
 		if (winner == playerID.none)
 		{ // Draw
 			endTitle.text = "It's a DRAW!";
@@ -163,6 +164,7 @@ public class KitKatToe : MonoBehaviour
 	{
 		nextPlayer = playerID.X;
 		EndgamePanel.SetActive(false);
+		nextPlayerPanel.gameObject.SetActive(true);
 		winnerCat.gameObject.SetActive(false);
 		foreach(FieldCat gameField in fields.Values)
 		{
