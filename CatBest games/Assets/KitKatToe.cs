@@ -18,6 +18,8 @@ public class KitKatToe : MonoBehaviour
 	public FieldCat BR;
 
 	public playerID nextPlayer = playerID.none;
+	public Image nextPlayerPanel;
+	public Image nextPlayerIcon;
 
 	public Sprite playerXimg;
 	public Color colorX = Color.red;
@@ -87,6 +89,8 @@ public class KitKatToe : MonoBehaviour
 					nextPlayer = playerID.X;
 					break;
 			}
+			nextPlayerPanel.color = players[nextPlayer].color;
+			nextPlayerIcon.sprite = players[nextPlayer].image;
 			playerID? winner = checkEndgame();
 			if (winner != null)
 				showEndgame((playerID) winner);
