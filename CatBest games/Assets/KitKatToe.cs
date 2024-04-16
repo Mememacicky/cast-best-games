@@ -89,8 +89,7 @@ public class KitKatToe : MonoBehaviour
 					nextPlayer = playerID.X;
 					break;
 			}
-			nextPlayerPanel.color = players[nextPlayer].color;
-			nextPlayerIcon.sprite = players[nextPlayer].image;
+			UpdateNextPlayer();
 			playerID? winner = checkEndgame();
 			if (winner != null)
 				showEndgame((playerID) winner);
@@ -170,6 +169,13 @@ public class KitKatToe : MonoBehaviour
 		{
 			gameField.ResetField();
 		}
+		UpdateNextPlayer();
+	}
+
+	public void UpdateNextPlayer()
+	{
+		nextPlayerPanel.color = players[nextPlayer].color;
+		nextPlayerIcon.sprite = players[nextPlayer].image;
 	}
 }
 
