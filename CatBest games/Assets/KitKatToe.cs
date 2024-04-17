@@ -64,12 +64,6 @@ public class KitKatToe : MonoBehaviour
 		ResetGame();
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-		
-	}
-
 	public void fieldClick(int position)
 	{
 		bool success = fields[(fieldPos) position].GetComponent<FieldCat>().PlayerChange(nextPlayer);
