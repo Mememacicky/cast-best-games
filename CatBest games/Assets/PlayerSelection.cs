@@ -22,6 +22,7 @@ public class PlayerSelection : MonoBehaviour
 		currentState.color = settings.colors[colorID];
 		CatCharacter.sprite = currentState.image;
 		ColorPanel.color = currentState.color;
+		settings.validateSelection();
 	}
 
 	public void NextCharacter(bool reverse) {

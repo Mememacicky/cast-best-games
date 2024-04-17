@@ -1,6 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerSettings : MonoBehaviour
 {
@@ -12,9 +14,11 @@ public class PlayerSettings : MonoBehaviour
 	public PlayerSelection playerXsel;
 	public PlayerSelection playerOsel;
 
+	public Button PlayBtn;
+
 	// Start is called before the first frame update
 	void Start()
-    {
+	{
 		playerXsel.settings = this;
 		playerXsel.characterID = 0;
 		playerXsel.colorID = 0;
@@ -24,4 +28,18 @@ public class PlayerSettings : MonoBehaviour
 		playerOsel.colorID = 1;
 		playerOsel.UpdateAppearance();
 	}
+
+	public void validateSelection()
+	{
+		if (playerXsel.colorID == playerOsel.colorID && playerXsel.characterID == playerOsel.characterID)
+		{
+			PlayBtn.interactable = false;
+		}
+		else
+		{
+			PlayBtn.interactable = true;
+		}
+	}
+
+	public void StartGame() { }
 }
