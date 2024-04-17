@@ -8,6 +8,7 @@ public class PlayerSettings : MonoBehaviour
 {
 	public GameObject SelectorPanel;
 	public KitKatToe GamePanel;
+	public GameObject SettingsPanel;
 
 	[Space(15)]
 	public Player nullPlayer = new Player() { color = new Color(0.6395372f, 0.8335454f, 0.8943396f) };
@@ -20,6 +21,10 @@ public class PlayerSettings : MonoBehaviour
 
 	public Button PlayBtn;
 	public bool gameValid;
+
+	public TextMeshProUGUI pointSliderValue;
+
+	public static GameSettings settings = new GameSettings() { pointGame = false, winPoints = 3 };
 
 	// Start is called before the first frame update
 	void Start()
@@ -59,8 +64,36 @@ public class PlayerSettings : MonoBehaviour
 		}
 	}
 
+	public void QuitGame()
+	{
+#if UNITY_EDITOR
+		UnityEditor.EditorApplication.isPlaying = false;
+#endif
+		Application.Quit();
+	}
+
 	public void BackToSelection()
 	{
 		SelectorPanel.SetActive(true);
 	}
+
+	public void OpenSettings(bool close)
+	{
+		SettingsPanel.SetActive(!close);
+	}
+	public void PointSettingsUpdate(float value)
+	{
+		settings.winPoints = (int)Mathf.Round(value);
+		pointSliderValue.text = value.ToString();
+	}
+	public void PointSettingsUpdate(bool enabled)
+	{
+		settings.pointGame = enabled;
+	}
+}
+
+public struct GameSettings
+{
+	public bool pointGame;
+	public int winPoints;
 }
