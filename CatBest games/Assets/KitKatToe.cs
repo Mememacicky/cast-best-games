@@ -134,7 +134,6 @@ public class KitKatToe : MonoBehaviour
 
 	public void showEndgame(playerID winner)
 	{
-		Debug.Log("Winner:\u00A0" + winner.ToString());
 		EndgamePanel.SetActive(true);
 		nextPlayerPanel.gameObject.SetActive(false);
 		if (winner == playerID.none)
