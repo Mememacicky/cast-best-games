@@ -27,15 +27,15 @@ public class PlayerSelection : MonoBehaviour
 
 	public void NextCharacter(bool reverse) {
 		characterID += reverse ? -1 : 1;
-		if (characterID <= -1) characterID = settings.cats.Count;
 		if (characterID >= settings.cats.Count) characterID = 0;
+		else if (characterID <= -1) characterID = settings.cats.Count - 1;
 		UpdateAppearance();
 	}
 	public void NextColor(bool reverse)
 	{
 		colorID += reverse ? -1 : 1;
-		if (colorID <= -1) colorID = settings.cats.Count;
 		if (colorID >= settings.cats.Count) colorID = 0;
+		else if (colorID <= -1) colorID = settings.cats.Count - 1;
 		UpdateAppearance();
 	}
 }
