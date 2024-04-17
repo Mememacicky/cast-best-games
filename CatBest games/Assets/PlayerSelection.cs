@@ -9,6 +9,10 @@ public class PlayerSelection : MonoBehaviour
 	public Image CatCharacter;
 	public Image ColorPanel;
 
+	[Header("To show in game settings:")]
+	public Image SettingsCat;
+	public Image SettingsPanel;
+
 	[Space(20)]
 	[Header("DONT'T TOUCH THESE:")]
 	// Internal, but Unity doesn't like internal
@@ -22,6 +26,8 @@ public class PlayerSelection : MonoBehaviour
 		currentState.color = settings.colors[colorID];
 		CatCharacter.sprite = currentState.image;
 		ColorPanel.color = currentState.color;
+		SettingsCat.sprite = currentState.image;
+		SettingsPanel.color = currentState.color;
 		settings.validateSelection();
 	}
 

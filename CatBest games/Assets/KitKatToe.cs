@@ -179,7 +179,7 @@ public class KitKatToe : MonoBehaviour
 
 	public void ResetGame(playerID startingPlayer)
 	{
-		if (startingPlayer == playerID.none) startingPlayer = playerID.X;
+		if (startingPlayer == playerID.none) startingPlayer = UnityEngine.Random.value < 0.5f ? playerID.X : playerID.O;
 		nextPlayer = startingPlayer;
 		this.startingPlayer = startingPlayer;
 		EndgamePanel.SetActive(false);
@@ -205,7 +205,7 @@ public class KitKatToe : MonoBehaviour
 		roundID.text = "Round: " + round;
 	}
 
-	public void Rematch(bool swapNextPlayer) => ResetGame(swapNextPlayer ^ (startingPlayer == playerID.O) ? playerID.O : playerID.X);
+	public void Rematch() => ResetGame(PlayerSettings.settings.startingPlayer);
 
 	public void UpdateNextPlayer()
 	{

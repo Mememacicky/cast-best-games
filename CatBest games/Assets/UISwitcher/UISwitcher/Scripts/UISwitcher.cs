@@ -8,7 +8,7 @@ namespace UISwitcher {
 		private readonly Vector2 _middle = new(0.5f, 0.5f);
 
 		[SerializeField] private Graphic backgroundGraphic;
-		[SerializeField] private Color onColor, offColor, nullColor;
+		[SerializeField] public Color onColor, offColor, nullColor;
 		[SerializeField] private RectTransform tipRect;
 		private Color backgroundColor {
 			set {

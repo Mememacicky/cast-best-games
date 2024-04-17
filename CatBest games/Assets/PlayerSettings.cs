@@ -27,6 +27,10 @@ public class PlayerSettings : MonoBehaviour
 
 	public static GameSettings settings = new GameSettings() { pointGame = false, winPoints = 3 };
 
+	[Space(10)]
+	public UISwitcher.UISwitcher playerSwitch;
+	public TextMeshProUGUI playerText;
+
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -39,6 +43,7 @@ public class PlayerSettings : MonoBehaviour
 		playerOsel.colorID = 1;
 		playerOsel.UpdateAppearance();
 		MainMenu();
+		StartingPlayer(null);
 	}
 
 	public void MainMenu()
@@ -60,6 +65,8 @@ public class PlayerSettings : MonoBehaviour
 			PlayBtn.interactable = true;
 			gameValid = true;
 		}
+		playerSwitch.onColor = playerOsel.currentState.color;
+		playerSwitch.offColor = playerXsel.currentState.color;
 	}
 
 	public void StartGame()
@@ -69,7 +76,7 @@ public class PlayerSettings : MonoBehaviour
 			SelectorPanel.SetActive(false);
 			KitKatToe.players[playerID.X] = playerXsel.currentState;
 			KitKatToe.players[playerID.O] = playerOsel.currentState;
-			GamePanel.ResetGame(playerID.X);
+			GamePanel.ResetGame(settings.startingPlayer);
 		}
 	}
 
@@ -94,10 +101,30 @@ public class PlayerSettings : MonoBehaviour
 	{
 		settings.pointGame = enabled;
 	}
+
+	public void StartingPlayer(bool? player)
+	{
+		if (player == null)
+		{
+			settings.startingPlayer = playerID.none;
+			playerText.text = "Random";
+		}
+		if (player == true)
+		{
+			settings.startingPlayer = playerID.O;
+			playerText.text = "Player 2";
+		}
+		if (player == false)
+		{
+			settings.startingPlayer = playerID.X;
+			playerText.text = "Player 1";
+		}
+	}
 }
 
 public struct GameSettings
 {
 	public bool pointGame;
 	public int winPoints;
+	public playerID startingPlayer;
 }
