@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,6 +38,14 @@ public class PlayerSettings : MonoBehaviour
 		playerOsel.characterID = 1;
 		playerOsel.colorID = 1;
 		playerOsel.UpdateAppearance();
+		MainMenu();
+	}
+
+	public void MainMenu()
+	{
+		GamePanel.EndgamePanel.SetActive(false);
+		SelectorPanel.SetActive(true);
+		SettingsPanel.SetActive(false);
 	}
 
 	public void validateSelection()
@@ -60,7 +69,7 @@ public class PlayerSettings : MonoBehaviour
 			SelectorPanel.SetActive(false);
 			KitKatToe.players[playerID.X] = playerXsel.currentState;
 			KitKatToe.players[playerID.O] = playerOsel.currentState;
-			GamePanel.ResetGame();
+			GamePanel.ResetGame(playerID.X);
 		}
 	}
 
@@ -70,11 +79,6 @@ public class PlayerSettings : MonoBehaviour
 		UnityEditor.EditorApplication.isPlaying = false;
 #endif
 		Application.Quit();
-	}
-
-	public void BackToSelection()
-	{
-		SelectorPanel.SetActive(true);
 	}
 
 	public void OpenSettings(bool close)
