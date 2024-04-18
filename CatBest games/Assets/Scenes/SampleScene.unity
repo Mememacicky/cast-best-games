@@ -8487,7 +8487,18 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fe3c0df5285db0b42b48431013e8a71c, type: 3}
   - {fileID: 21300000, guid: 4021bec01e8ece247b94a2b4e484e17b, type: 3}
   - {fileID: 21300000, guid: 81c2850e68e7f014d894716825dccb60, type: 3}
+  - {fileID: 21300000, guid: 5b3c6ef95ac3f924892dbe4ba450cdbd, type: 3}
+  - {fileID: 21300000, guid: 4ee55211a2504c940981999c38b8a77c, type: 3}
+  - {fileID: 21300000, guid: c2f4c6d86d5f0ce4cb4a88e5099c1059, type: 3}
+  - {fileID: 21300000, guid: bd886e063c78e2d4e9c086fff8412ada, type: 3}
+  - {fileID: 21300000, guid: e26ecb2c7d5a1124ca6a6ff1c2b68128, type: 3}
+  - {fileID: 21300000, guid: 5feb9707385b6c64f864583d1cc228e0, type: 3}
+  - {fileID: 21300000, guid: b1692088a88a8e94fa5edfe1d4f771e2, type: 3}
+  - {fileID: 21300000, guid: e85df58081cf6254592232656f6002d7, type: 3}
+  - {fileID: 21300000, guid: 354ec2e7428d9b5408e0ddc22e202e21, type: 3}
+  - {fileID: 21300000, guid: a5fea0219ffe3184faf5b726cadf6d01, type: 3}
   - {fileID: 21300000, guid: 56a5c8f090e310a478892dd84e48df90, type: 3}
+  - {fileID: 21300000, guid: 061ab4f418500124e90fb0a3f24f5a28, type: 3}
   colors:
   - {r: 1, g: 0, b: 0.6666667, a: 1}
   - {r: 0, g: 0.9882353, b: 1, a: 1}
@@ -8496,6 +8507,14 @@ MonoBehaviour:
   - {r: 0.7098325, g: 0.3658597, b: 0.90188676, a: 1}
   - {r: 0.29837662, g: 0.5646243, b: 0.86415094, a: 1}
   - {r: 0.8113208, g: 0.38496238, b: 0.15154853, a: 1}
+  - {r: 0.93207544, g: 0.93207544, b: 0.93207544, a: 1}
+  - {r: 0.2368355, g: 0.18828759, b: 0.8113208, a: 1}
+  - {r: 0.7283019, g: 0.13604124, b: 0.15378292, a: 1}
+  - {r: 0.13725491, g: 0.7294118, b: 0.15389805, a: 1}
+  - {r: 1, g: 0.7494428, b: 0.48867923, a: 1}
+  - {r: 0.4901961, g: 1, b: 0.746886, a: 1}
+  - {r: 0.10188681, g: 0.10188681, b: 0.10188681, a: 1}
+  - {r: 0.30814523, g: 0.35885954, b: 0.4264151, a: 1}
   playerXsel: {fileID: 488130300}
   playerOsel: {fileID: 840192093}
   PlayBtn: {fileID: 280271472}
@@ -9835,7 +9854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1697560249
 RectTransform:
   m_ObjectHideFlags: 0
